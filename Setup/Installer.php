@@ -10,11 +10,6 @@ use Magento\Framework\Setup;
 class Installer implements Setup\SampleData\InstallerInterface
 {
     /**
-     * @var \Magento\CmsSampleData\Model\Page
-     */
-    private $page;
-
-    /**
      * @var \Magento\CmsSampleData\Model\Block
      */
     private $block;
@@ -26,7 +21,6 @@ class Installer implements Setup\SampleData\InstallerInterface
     public function __construct(
         \MagentoEse\CmsSampleDataUpdate\Model\Block $block
     ) {
-        $this->page = $page;
         $this->block = $block;
     }
 
