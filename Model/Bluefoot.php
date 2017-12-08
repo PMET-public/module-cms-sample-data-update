@@ -6,6 +6,7 @@
 namespace MagentoEse\CmsSampleDataUpdate\Model;
 
 use Magento\Framework\Setup\SampleData\Context as SampleDataContext;
+use Magento\Framework\Config\ConfigOptionsListConstants;
 
 /**
  * Class Bluefoot

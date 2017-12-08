@@ -31,33 +31,33 @@ class Installer implements Setup\SampleData\InstallerInterface
     public function install()
     {
       // Homepage Block CMS
-      $this->bluefoot->updateCmsBlockContent('home-page-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-home.json'));
+      $this->bluefoot->updateCmsBlockContent('home-page-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-home.json'));
 
       // CLP Woman Block CMS
-      $this->bluefoot->updateCmsBlockContent('woman-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-woman-block.json'));
+      //this->bluefoot->updateCmsBlockContent('woman-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-woman-block.json'));
 
       // CLP Training Block CMS
-      $this->bluefoot->updateCmsBlockContent('training-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-training-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('training-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-training-block.json'));
 
       // CLP Men Block CMS
-      $this->bluefoot->updateCmsBlockContent('men-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-men-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('men-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-men-block.json'));
 
       // CLP Gear Block CMS
-      $this->bluefoot->updateCmsBlockContent('gear-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-gear-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('gear-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-gear-block.json'));
 
       // CLP Sale Block CMS
-      $this->bluefoot->updateCmsBlockContent('sale-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-sale-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('sale-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-sale-block.json'));
 
       // CLP New Block CMS
-      $this->bluefoot->updateCmsBlockContent('new-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-new-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('new-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-new-block.json'));
 
       // CLP GiftCard Block CMS
-      $this->bluefoot->updateCmsBlockContent('giftcard-block', $this->buildStructureFromTemplate(__DIR__ . '/luma-giftcard-block.json'));
+      //$this->bluefoot->updateCmsBlockContent('giftcard-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-giftcard-block.json'));
 
       // Homepage CMS template
-      $this->bluefoot->saveBluefootTemplate('Luma Home', json_encode(json_decode(file_get_contents(__DIR__.'/luma-home.json'),true)), file_get_contents(__DIR__.'/luma-home.png.txt'));
+      $this->bluefoot->saveBluefootTemplate('Luma Home', json_encode(json_decode(file_get_contents(__DIR__ . '/../fixtures/bluefoot/luma-home.json'),true)), file_get_contents(__DIR__ . '/../fixtures/bluefoot/luma-home.png.txt'));
 
       // CLP Block template
-      $this->bluefoot->saveBluefootTemplate('Luma CLP', json_encode(json_decode(file_get_contents(__DIR__.'/luma-clp-block.json'),true)), file_get_contents(__DIR__.'/luma-clp-block.png.txt'));
+      //$this->bluefoot->saveBluefootTemplate('Luma CLP', json_encode(json_decode(file_get_contents(__DIR__ . '/../fixtures/bluefoot/luma-woman-block.json'),true)), file_get_contents(['MagentoEse_CmsSampleDataUpdate::fixtures/bluefoot/luma-woman-block.png.txt']));
     }
 }

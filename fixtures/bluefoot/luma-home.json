@@ -1,0 +1,451 @@
+[
+	{
+		"type": "row",
+		"formData": {
+			"template": "full-width.phtml",
+			"background_color": "",
+			"background_image": "/h/o/home-main.jpg",
+			"css_classes": "",
+			"undefined": "",
+			"align": "",
+			"metric": ""
+		},
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				}
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				}
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p style=\"text-align: left;\">New Luma Yoga Collection</p>\n<p style=\"text-align: left;\">Get fit and look fab in new seasonal styles</p>",
+							"preview_view": {
+								"entity_id": "52",
+								"textarea": "<p style=\"text-align: left;\">New Luma Yoga Collection</p>\n<p style=\"text-align: left;\">Get fit and look fab in new seasonal styles</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "53",
+								"button_items": "1",
+								"align": "center",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop New Yoga</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "center",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop New Yoga",
+										"link_url": "collections/yoga-new.html",
+										"preview_view": {
+											"entity_id": "54",
+											"link_text": "Shop New Yoga",
+											"link_url": "collections/yoga-new.html",
+											"align": "center",
+											"metric": ""
+										},
+										"align": "center",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p><strong>20% Off</strong></p>\n<p>Luma pants when you shop today*</p>",
+							"preview_view": {
+								"entity_id": "55",
+								"textarea": "<p><strong>20% Off</strong></p>\n<p>Luma pants when you shop today*</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "56",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Pants</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Pants",
+										"link_url": "promotions/pants-all.html",
+										"preview_view": {
+											"entity_id": "57",
+											"link_text": "Shop Pants",
+											"link_url": "promotions/pants-all.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "image",
+						"formData": {
+							"alt_tag": "t-shirts",
+							"has_lightbox": "0",
+							"show_caption": "0",
+							"image": "/h/o/home-t-shirts.png",
+							"preview_view": {
+								"entity_id": "58",
+								"alt_tag": "t-shirts",
+								"has_lightbox": "No",
+								"show_caption": "No",
+								"image": "/h/o/home-t-shirts.png",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>Even More ways to mix and match</p>\n<p>Buy 3 Luma tees get a 4th free</p>",
+							"preview_view": {
+								"entity_id": "59",
+								"textarea": "<p>Even More ways to mix and match</p>\n<p>Buy 3 Luma tees get a 4th free</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "60",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Tees</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Tees",
+										"link_url": "promotions/tees-all.html",
+										"preview_view": {
+											"entity_id": "61",
+											"link_text": "Shop Tees",
+											"link_url": "promotions/tees-all.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				}
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>Take it from Erin</p>\n<p>Luma founder Erin Renny shares her favorites!</p>",
+							"preview_view": {
+								"entity_id": "62",
+								"textarea": "<p>Take it from Erin</p>\n<p>Luma founder Erin Renny shares her favorites!</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "63",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Erin Recommends</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Erin Recommends",
+										"link_url": "collections/erin-recommends.html",
+										"preview_view": {
+											"entity_id": "64",
+											"link_text": "Shop Erin Recommends",
+											"link_url": "collections/erin-recommends.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.333
+				},
+				"children": [
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>Science meets performance</p>\n<p>Wicking to raingear, Luma covers you</p>",
+							"preview_view": {
+								"entity_id": "65",
+								"textarea": "<p>Science meets performance</p>\n<p>Wicking to raingear, Luma covers you</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "66",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Performance</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Performance",
+										"link_url": "collections/performance-fabrics.html",
+										"preview_view": {
+											"entity_id": "67",
+											"link_text": "Shop Performance",
+											"link_url": "collections/performance-fabrics.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"contentType": "textarea",
+				"formData": {
+					"textarea": "<p>Twice around, twice as nice</p>\n<p>Find conscientious, comfy clothing in our eco-friendly collection</p>",
+					"preview_view": {
+						"entity_id": "68",
+						"textarea": "<p>Twice around, twice as nice</p>\n<p>Find conscientious, comfy clothing in our eco-friendly collection</p>",
+						"align": "",
+						"metric": ""
+					},
+					"align": "",
+					"metric": ""
+				}
+			},
+			{
+				"contentType": "buttons",
+				"formData": {
+					"button_items": "1",
+					"preview_view": {
+						"entity_id": "69",
+						"button_items": "1",
+						"align": "",
+						"metric": "",
+						"child_blocks": {
+							"button_items": [
+								{
+									"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Eco-Friendly</button>\n    "
+								}
+							]
+						}
+					},
+					"align": "",
+					"metric": ""
+				},
+				"children": {
+					"button_items": [
+						{
+							"contentType": "button_item",
+							"formData": {
+								"link_text": "Shop Eco-Friendly",
+								"link_url": "collections/eco-friendly.html",
+								"preview_view": {
+									"entity_id": "70",
+									"link_text": "Shop Eco-Friendly",
+									"link_url": "collections/eco-friendly.html",
+									"align": "",
+									"metric": ""
+								},
+								"align": "",
+								"metric": ""
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"type": "extra",
+		"deleted": []
+	}
+]
