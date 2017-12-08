@@ -1,0 +1,691 @@
+[
+	{
+		"type": "row",
+		"formData": {
+			"template": "full-width.phtml",
+			"background_color": "",
+			"background_image": "/g/e/gear-main.jpg",
+			"css_classes": "",
+			"undefined": "",
+			"align": "left",
+			"metric": ""
+		},
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": "0.500"
+				}
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": "0.500"
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "Yoga is ancient Clothing shouldn't be",
+							"heading_type": "6",
+							"preview_view": {
+								"entity_id": "71",
+								"title": "Yoga is ancient Clothing shouldn't be",
+								"heading_type": "h2",
+								"align": "left",
+								"metric": ""
+							},
+							"align": "left",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>New Luma Yoga Collection</p>",
+							"preview_view": {
+								"entity_id": "72",
+								"textarea": "<p>New Luma Yoga Collection</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "73",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop New Yoga</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop New Yoga",
+										"link_url": "gear.html",
+										"preview_view": {
+											"entity_id": "74",
+											"link_text": "Shop New Yoga",
+											"link_url": "gear.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": "0.500"
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "You can't have too many tees",
+							"heading_type": "6",
+							"preview_view": {
+								"entity_id": "75",
+								"title": "You can't have too many tees",
+								"heading_type": "h2",
+								"align": "left",
+								"metric": ""
+							},
+							"align": "left",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>4 tees for the price of 3. Right now</p>",
+							"preview_view": {
+								"entity_id": "76",
+								"textarea": "<p>4 tees for the price of 3. Right now</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "77",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Woman's Tees</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Woman's Tees",
+										"link_url": "gear/fitness-equipment.html",
+										"preview_view": {
+											"entity_id": "78",
+											"link_text": "Woman's Tees",
+											"link_url": "gear/fitness-equipment.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": "0.500"
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "Here's to you!",
+							"heading_type": "6",
+							"preview_view": {
+								"entity_id": "79",
+								"title": "Here's to you!",
+								"heading_type": "h2",
+								"align": "left",
+								"metric": ""
+							},
+							"align": "left",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>$4 Luma water bottle (save 70%)</p>",
+							"preview_view": {
+								"entity_id": "80",
+								"textarea": "<p>$4 Luma water bottle (save 70%)</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "81",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Pants</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Pants",
+										"link_url": "gear/fitness-equipment.html",
+										"preview_view": {
+											"entity_id": "82",
+											"link_text": "Shop Pants",
+											"link_url": "gear/fitness-equipment.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "What would Erin wear?",
+							"heading_type": "7",
+							"preview_view": {
+								"entity_id": "83",
+								"title": "What would Erin wear?",
+								"heading_type": "h3",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>It's no secret: see Luma founder Erin Renny's wardrope go-to's</p>",
+							"preview_view": {
+								"entity_id": "84",
+								"textarea": "<p>It's no secret: see Luma founder Erin Renny's wardrope go-to's</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "85",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Erin Recommends</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Erin Recommends",
+										"link_url": "gear/bags.html",
+										"preview_view": {
+											"entity_id": "86",
+											"link_text": "Shop Erin Recommends",
+											"link_url": "gear/bags.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "image",
+						"formData": {
+							"alt_tag": "bags",
+							"has_lightbox": "0",
+							"show_caption": "0",
+							"image": "/g/e/gear-category-bags.jpg",
+							"preview_view": {
+								"entity_id": "87",
+								"alt_tag": "bags",
+								"has_lightbox": "No",
+								"show_caption": "No",
+								"image": "/g/e/gear-category-bags.jpg",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "Luma pants",
+							"heading_type": "7",
+							"preview_view": {
+								"entity_id": "88",
+								"title": "Luma pants",
+								"heading_type": "h3",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>Pants for yoga, gym and outdoors</p>",
+							"preview_view": {
+								"entity_id": "89",
+								"textarea": "<p>Pants for yoga, gym and outdoors</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "90",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Pants</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Pants",
+										"link_url": "gear/fitness-equipment.html",
+										"preview_view": {
+											"entity_id": "91",
+											"link_text": "Shop Pants",
+											"link_url": "gear/fitness-equipment.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "image",
+						"formData": {
+							"alt_tag": "equipment",
+							"has_lightbox": "0",
+							"show_caption": "0",
+							"image": "/g/e/gear-category-equipment.jpg",
+							"preview_view": {
+								"entity_id": "92",
+								"alt_tag": "equipment",
+								"has_lightbox": "No",
+								"show_caption": "No",
+								"image": "/g/e/gear-category-equipment.jpg",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "heading",
+						"formData": {
+							"title": "Luma shorts",
+							"heading_type": "7",
+							"preview_view": {
+								"entity_id": "93",
+								"title": "Luma shorts",
+								"heading_type": "h3",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "textarea",
+						"formData": {
+							"textarea": "<p>Excercise comfort</p>",
+							"preview_view": {
+								"entity_id": "94",
+								"textarea": "<p>Excercise comfort</p>",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					},
+					{
+						"contentType": "buttons",
+						"formData": {
+							"button_items": "1",
+							"preview_view": {
+								"entity_id": "95",
+								"button_items": "1",
+								"align": "",
+								"metric": "",
+								"child_blocks": {
+									"button_items": [
+										{
+											"html": "\n        <button type=\"button\" class=\"gene-bluefoot-block-button\">Shop Shorts</button>\n    "
+										}
+									]
+								}
+							},
+							"align": "",
+							"metric": ""
+						},
+						"children": {
+							"button_items": [
+								{
+									"contentType": "button_item",
+									"formData": {
+										"link_text": "Shop Shorts",
+										"link_url": "gear/watches.html",
+										"preview_view": {
+											"entity_id": "96",
+											"link_text": "Shop Shorts",
+											"link_url": "gear/watches.html",
+											"align": "",
+											"metric": ""
+										},
+										"align": "",
+										"metric": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "column",
+				"formData": {
+					"width": 0.167
+				},
+				"children": [
+					{
+						"contentType": "image",
+						"formData": {
+							"alt_tag": "watches",
+							"has_lightbox": "0",
+							"show_caption": "0",
+							"image": "/g/e/gear-category-watches.jpg",
+							"preview_view": {
+								"entity_id": "97",
+								"alt_tag": "watches",
+								"has_lightbox": "No",
+								"show_caption": "No",
+								"image": "/g/e/gear-category-watches.jpg",
+								"align": "",
+								"metric": ""
+							},
+							"align": "",
+							"metric": ""
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "row",
+		"children": [
+			{
+				"contentType": "heading",
+				"formData": {
+					"title": "Hot Sellers",
+					"heading_type": "6",
+					"preview_view": {
+						"entity_id": "98",
+						"title": "Hot Sellers",
+						"heading_type": "h2",
+						"align": "center",
+						"metric": ""
+					},
+					"align": "center",
+					"metric": ""
+				}
+			},
+			{
+				"contentType": "hr",
+				"formData": {
+					"hr_height": "1px",
+					"hr_width": "100%",
+					"preview_view": {
+						"entity_id": "99",
+						"hr_height": "1px",
+						"hr_width": "100%",
+						"align": "center",
+						"metric": ""
+					},
+					"align": "center",
+					"metric": ""
+				}
+			},
+			{
+				"contentType": "textarea",
+				"formData": {
+					"textarea": "<p>Favorites from Luma shoppers</p>",
+					"preview_view": {
+						"entity_id": "100",
+						"textarea": "<p>Favorites from Luma shoppers</p>",
+						"align": "center",
+						"metric": ""
+					},
+					"align": "center",
+					"metric": ""
+				}
+			},
+			{
+				"contentType": "product_list",
+				"formData": {
+					"category_id": "4",
+					"hide_out_of_stock": "0",
+					"preview_view": {
+						"entity_id": "101",
+						"category_id": {
+							"category": {
+								"name": "Bags"
+							},
+							"products": [
+								{
+									"name": "Joust Duffle Bag",
+									"sku": "24-MB01",
+									"image": "http://magento22demo2.dev/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/m/b/mb01-blue-0.jpg",
+									"price": "$34.00"
+								},
+								{
+									"name": "Strive Shoulder Pack",
+									"sku": "24-MB04",
+									"image": "http://magento22demo2.dev/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/m/b/mb04-black-0.jpg",
+									"price": "$32.00"
+								},
+								{
+									"name": "Crown Summit Backpack",
+									"sku": "24-MB03",
+									"image": "http://magento22demo2.dev/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/m/b/mb03-black-0.jpg",
+									"price": "$38.00"
+								},
+								{
+									"name": "Wayfarer Messenger Bag",
+									"sku": "24-MB05",
+									"image": "http://magento22demo2.dev/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/m/b/mb05-black-0.jpg",
+									"price": "$45.00"
+								}
+							]
+						},
+						"hide_out_of_stock": "No",
+						"align": "center",
+						"metric": ""
+					},
+					"align": "center",
+					"metric": ""
+				}
+			}
+		]
+	},
+	{
+		"type": "extra",
+		"deleted": []
+	}
+]
