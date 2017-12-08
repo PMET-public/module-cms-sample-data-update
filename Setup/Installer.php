@@ -34,13 +34,13 @@ class Installer implements Setup\SampleData\InstallerInterface
       $this->bluefoot->updateCmsBlockContent('home-page-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-home.json'));
 
       // CLP Woman Block CMS
-      this->bluefoot->updateCmsBlockContent('woman-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-woman-block.json'));
+      $this->bluefoot->updateCmsBlockContent('woman-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-woman-block.json'));
 
       // CLP Training Block CMS
       //$this->bluefoot->updateCmsBlockContent('training-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-training-block.json'));
 
       // CLP Men Block CMS
-      //$this->bluefoot->updateCmsBlockContent('men-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-men-block.json'));
+      $this->bluefoot->updateCmsBlockContent('men-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-men-block.json'));
 
       // CLP Gear Block CMS
       $this->bluefoot->updateCmsBlockContent('gear-block', $this->bluefoot->buildStructureFromTemplate(__DIR__ . '/../fixtures/bluefoot/luma-gear-block.json'));
