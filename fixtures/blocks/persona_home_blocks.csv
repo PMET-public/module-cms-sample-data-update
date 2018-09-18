@@ -1,0 +1,172 @@
+title,identifier,content
+"VIP",home-page-vip,"<div class=""blocks-promo"">
+   <a href=""{{category key=""women""}}"" class=""block-promo home-main"">
+       <img src=""{{media url=""wysiwyg/home/vip/AdobeStock_99327433.jpg""}}"" alt="""" />
+       <span class=""content bg-white"">
+           <span class=""info"">It’s Your Birthday Month, VIP!</span>
+           <strong class=""title"">Use promo code BIRTHDAY for your free gift</strong>
+           <span class=""action more button"">Treat Yourself</span>
+       </span>
+   </a>
+   <div class=""block-promo-wrapper block-promo-hp"">
+       <a href=""{{category key=""sale""}}"" class=""block-promo home-pants"">
+           <img src=""{{media url=""wysiwyg/home/vip/LUMA_Womens-Outfit 7_0364.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">Early Access</strong>
+               <span class=""info"">to our semi-annual sale</span>
+               <span class=""action more icon"">Save Now</span>
+           </span>
+       </a>
+       <a href=""{{category key=""women""}}"" class=""block-promo home-t-shirts"">
+           <span class=""image""><img src=""{{media url=""wysiwyg/home/vip/AdobeStock_133146796.jpg""}}"" alt="""" /></span>
+           <span class=""content"">
+               <strong class=""title"">Free 2-Day Shipping</strong>
+               <span class=""info"">on every order every day!</span>
+               <span class=""action more icon"">Shop Now</span>
+           </span>
+       </a>
+       <a href=""{{category key=""erin-recommends""}}"" class=""block-promo home-erin"">
+           <img src=""{{media url=""wysiwyg/home/home-erin.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">Take it from Erin</strong>
+               <span class=""info"">Luma founder Erin Renny shares her favorites!</span>
+               <span class=""action more icon"">Shop Erin Recommends</span>
+           </span>
+       </a>
+       <a href=""{{category key=""tanks-women""}}"" class=""block-promo home-performance"">
+           <img src=""{{media url=""wysiwyg/home/vip/LUMA_Womens-Outfit 4_0297.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">Move with Ease</strong>
+               <span class=""info"">Breathable options that keep you cool</span>
+               <span class=""action more icon"">Shop Bras & Tanks</span>
+           </span>
+       </a>
+       <a href=""{{category key=""what-is-new""}}"" class=""block-promo home-eco"">
+           <img src=""{{media url=""wysiwyg/home/vip/AdobeStock_199127780.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">In-Store Classes</strong>
+               <span class=""info"">Find an upcoming free class near you</span>
+               <span class=""action more icon"">Browse Events</span>
+           </span>
+       </a>
+   </div>
+</div>
+<div class=""content-heading"">
+   <h2 class=""title"">Hot Sellers</h2>
+   <p class=""info"">Here is what`s trending on Luma right now</p>
+</div>
+"
+"Runner",home-page-runner,"<div class=""blocks-promo"">
+   <a href=""{{category key=""yoga-new""}}"" class=""block-promo home-main"">
+       <img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 12_2161.jpg""}}"" alt="""" />
+       <span class=""content bg-white"">
+           <span class=""info"">Running Essentials</span>
+           <strong class=""title"">Everything you need to go the distance</strong>
+           <span class=""action more button"">Run with Us</span>
+       </span>
+   </a>
+   <div class=""block-promo-wrapper block-promo-hp"">
+       <a href=""{{category key=""pants-men""}}"" class=""block-promo home-pants"">
+           <img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 2_1737.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">20% Off Men’s Pants</strong>
+               <span class=""info"">From active to anytime</span>
+               <span class=""action more icon"">Shop Pants</span>
+           </span>
+       </a>
+       <a href=""{{category key=""tees-all""}}"" class=""block-promo home-t-shirts"">
+           <span class=""image""><img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 1-v3_1775.jpg""}}"" alt="""" /></span>
+           <span class=""content"">
+               <strong class=""title"">Now Trending</strong>
+               <span class=""info"">Blues from ocean to sky</span>
+               <span class=""action more icon"">Shop Now</span>
+           </span>
+       </a>
+       <a href=""{{category key=""watches""}}"" class=""block-promo home-erin"">
+           <img src=""{{media url=""wysiwyg/home/runner/WG02-BK-0.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">Tools of the Trade</strong>
+               <span class=""info"">For beating your personal best</span>
+               <span class=""action more icon"">Shop Watches</span>
+           </span>
+       </a>
+       <a href=""{{category key=""jackets-men""}}"" class=""block-promo home-performance"">
+           <img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 3_1740.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">Warm Layers</strong>
+               <span class=""info"">That won’t slow you down</span>
+               <span class=""action more icon"">Shop Jackets</span>
+           </span>
+       </a>
+       <a href=""{{category key=""eco-friendly""}}"" class=""block-promo home-eco"">
+           <img src=""{{media url=""wysiwyg/home/runner/AdobeStock_164138930.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">Eco-Friendly</strong>
+               <span class=""info"">Conscientious & comfy clothing</span>
+               <span class=""action more icon"">Shop Eco-Friendly</span>
+           </span>
+       </a>
+   </div>
+</div>
+<div class=""content-heading"">
+   <h2 class=""title"">Hot Sellers</h2>
+   <p class=""info"">Here is what`s trending on Luma right now</p>
+</div>
+"
+"Yoga",home-page-yoga,"<div class=""blocks-promo"">
+   <a href=""{{category key=""yoga-new""}}"" class=""block-promo home-main"">
+       <img src=""{{media url=""wysiwyg/home/yoga/LUMA_Womens-Outfit 7_0395.jpg""}}"" alt="""" />
+       <span class=""content bg-white"">
+           <span class=""info"">Positively Meditative</span>
+           <strong class=""title"">There’s no place like ommmm</strong>
+           <span class=""action more button"">Shop Yoga</span>
+       </span>
+   </a>
+   <div class=""block-promo-wrapper block-promo-hp"">
+       <a href=""sprite-yoga-companion-kit.html"" class=""block-promo home-pants"">
+           <img src=""{{media url=""wysiwyg/home/yoga/LUMA_Womens Outfit 9-v2_0644.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">Save 20%</strong>
+               <span class=""info"">on the Sprite Yoga Companion Kit</span>
+               <span class=""action more icon"">Get It Now</span>
+           </span>
+       </a>
+       <a href=""{{category key=""tees-all""}}"" class=""block-promo home-t-shirts"">
+           <span class=""image""><img src=""{{media url=""wysiwyg/home/home-t-shirts.png""}}"" alt="""" /></span>
+           <span class=""content"">
+               <strong class=""title"">Even more ways to mix and match</strong>
+               <span class=""info"">Buy 3 Luma tees get a 4th free</span>
+               <span class=""action more icon"">Shop Tees</span>
+           </span>
+       </a>
+       <a href=""{{category key=""fitness-equipment""}}"" class=""block-promo home-erin"">
+           <img src=""{{media url=""wysiwyg/home/yoga/WG08-PI-0.jpg""}}"" alt="""" />
+           <span class=""content"">
+               <strong class=""title"">On the Ball</strong>
+               <span class=""info"">Everything you need for core strength</span>
+               <span class=""action more icon"">Shop Equipment</span>
+           </span>
+       </a>
+       <a href=""{{category key=""tanks-women""}}"" class=""block-promo home-performance"">
+           <img src=""{{media url=""wysiwyg/home/yoga/LUMA_Womens-Outfit 4_0297.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">Move with Ease</strong>
+               <span class=""info"">Breathable options that keep you cool</span>
+               <span class=""action more icon"">Shop Bras & Tanks</span>
+           </span>
+       </a>
+       <a href=""{{category key=""eco-friendly""}}"" class=""block-promo home-eco"">
+           <img src=""{{media url=""wysiwyg/home/yoga/AdobeStock_164138930.jpg""}}"" alt="""" />
+           <span class=""content bg-white"">
+               <strong class=""title"">Eco-Friendly</strong>
+               <span class=""info"">Conscientious & comfy clothing</span>
+               <span class=""action more icon"">Shop Eco-Friendly</span>
+           </span>
+       </a>
+   </div>
+</div>
+<div class=""content-heading"">
+   <h2 class=""title"">Hot Sellers</h2>
+   <p class=""info"">Here is what`s trending on Luma right now</p>
+</div>
+"

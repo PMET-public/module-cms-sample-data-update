@@ -1,0 +1,5 @@
+name,store_id,banner_content
+Not Logged In,0,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""16""}}"
+VIP,0,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""47""}}"
+Runner,0,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""48""}}"
+Yoga,0,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""49""}}"
