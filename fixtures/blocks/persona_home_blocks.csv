@@ -17,7 +17,7 @@ title,identifier,content
                <span class=""action more icon"">Save Now</span>
            </span>
        </a>
-       <a href=""{{category key=""women""}}"" class=""block-promo home-t-shirts"">
+       <a href=""{{category key=""women""}}"" class=""block-promo home-t-shirts home-white"">
            <span class=""image""><img src=""{{media url=""wysiwyg/home/vip/AdobeStock_133146796.jpg""}}"" alt="""" /></span>
            <span class=""content"">
                <strong class=""title"">Free 2-Day Shipping</strong>
@@ -69,13 +69,13 @@ title,identifier,content
        <a href=""{{category key=""pants-men""}}"" class=""block-promo home-pants"">
            <img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 2_1737.jpg""}}"" alt="""" />
            <span class=""content"">
-               <strong class=""title"">20% Off Men’s Pants</strong>
-               <span class=""info"">From active to anytime</span>
+               <strong class=""title"">20% Off</strong>
+               <span class=""info"">Men’s Pants, from active to anytime</span>
                <span class=""action more icon"">Shop Pants</span>
            </span>
        </a>
-       <a href=""{{category key=""tees-all""}}"" class=""block-promo home-t-shirts"">
-           <span class=""image""><img src=""{{media url=""wysiwyg/home/runner/LUMA_Mens Outfit 1-v3_1775.jpg""}}"" alt="""" /></span>
+       <a href=""{{category key=""tees-all""}}"" class=""block-promo home-t-shirts home-white"">
+           <span class=""image""><img src=""{{media url=""wysiwyg/home/runner/AdobeStock_146039431.jpg""}}"" alt="""" /></span>
            <span class=""content"">
                <strong class=""title"">Now Trending</strong>
                <span class=""info"">Blues from ocean to sky</span>
@@ -85,7 +85,7 @@ title,identifier,content
        <a href=""{{category key=""watches""}}"" class=""block-promo home-erin"">
            <img src=""{{media url=""wysiwyg/home/runner/WG02-BK-0.jpg""}}"" alt="""" />
            <span class=""content"">
-               <strong class=""title"">Tools of the Trade</strong>
+               <strong class=""title"">Tech Tools</strong>
                <span class=""info"">For beating your personal best</span>
                <span class=""action more icon"">Shop Watches</span>
            </span>
