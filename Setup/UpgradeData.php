@@ -76,7 +76,7 @@ class UpgradeData implements UpgradeDataInterface
           $this->pageFactory->create()
               ->load('home')
               ->setContent('<p>{{widget type="Magento\Banner\Block\Widget\Banner" display_mode="fixed" types="content" rotate="" banner_ids="1,2,3,4" template="widget/block.phtml" unique_id="f91bb74da701824f52d10d816238cdf7"}}</p>
-<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`badge`,`operator`:`^[^]`,`value`:[`7`]^]^]"}}</p>')
+<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`badge`,`operator`:`^[^]`,`value`:[`5`]^]^]"}}</p>')
               ->save();
 
           //update homepage block to remove product widget
