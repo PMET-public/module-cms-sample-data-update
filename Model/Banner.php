@@ -3,7 +3,7 @@
  * Copyright © 2013-2017 Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace MagentoEse\CmsSampleDataUpDate\Model;
+namespace MagentoEse\CmsSampleDataUpdate\Model;
 
 use Magento\Framework\Setup\SampleData\Context as SampleDataContext;
 
@@ -28,14 +28,14 @@ class Banner
     protected $banner;
 
     /**
-     * @var \Magento\BannerCustomerSegment\Model\ResourceMode\BannerSegmentLink
+     * @var \Magento\BannerCustomerSegment\Model\ResourceModel\BannerSegmentLink
      */
     private $bannerSegmentLink;
 
     /**
      * @param SampleDataContext $sampleDataContext
      * @param Banner $banner
-     * @param BannerSegmentLink $bannerSegmentLink
+     * @param \Magento\BannerCustomerSegment\Model\ResourceModel\BannerSegmentLink $bannerSegmentLink
      */
     public function __construct(
         SampleDataContext $sampleDataContext,
