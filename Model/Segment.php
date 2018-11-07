@@ -68,15 +68,18 @@ class Segment
                 $segment->setIsActive(1);
                 $segment->addData(['apply_to'=>$data['apply_to']]);
                 $segment->save();
+
+                //add website to segment
+                $this->_resources = \Magento\Framework\App\ObjectManager::getInstance()
+                ->get('Magento\Framework\App\ResourceConnection');
+                $connection= $this->_resources->getConnection();
+                $customerSegmentWebsiteTable = $this->_resources->getTableName('magento_customersegment_website');
+                $currentId = "SELECT max('$customerSegmentWebsiteTable') FROM magento_customersegment_website";
+                $countId = $connection->query($currentId);
+                $sql = "INSERT INTO " . $customerSegmentWebsiteTable . "(segment_id, website_id) VALUES ('". $countId++ ."', '1')";
+                $connection->query($sql);
             }
         }
-        //add website to segment
-        $this->_resources = \Magento\Framework\App\ObjectManager::getInstance()
-        ->get('Magento\Framework\App\ResourceConnection');
-        $connection= $this->_resources->getConnection();
 
-        $customerSegmentWebsiteTable = $this->_resources->getTableName('magento_customersegment_website');
-        $sql = "INSERT INTO " . $customerSegmentWebsiteTable . "(segment_id, website_id) VALUES ('1', '1'), ('2', '1'), ('3','1'), ('4','1')";
-        $connection->query($sql);
     }
 }
