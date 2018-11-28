@@ -145,19 +145,24 @@ class UpgradeData implements UpgradeDataInterface
           //update pages with PB content
           $this->blockFactory->create()
               ->load('home-page-block')
-              ->setContent(file_get_contents('MagentoEse_CmsSampleDataUpdate::fixtures/luma-home-pb.txt'))
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-pb.txt'))
               ->save();
           $this->blockFactory->create()
               ->load('home-page-vip')
-              ->setContent(file_get_contents('MagentoEse_CmsSampleDataUpdate::fixtures/luma-home-vip-pb.txt'))
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-vip-pb.txt'))
               ->save();
           $this->blockFactory->create()
               ->load('home-page-runner')
-              ->setContent(file_get_contents('MagentoEse_CmsSampleDataUpdate::fixtures/luma-home-runner-pb.txt'))
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-runner-pb.txt'))
               ->save();
           $this->blockFactory->create()
               ->load('home-page-yoga')
-              ->setContent(file_get_contents('MagentoEse_CmsSampleDataUpdate::fixtures/luma-home-yoga-pb.txt'))
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-yoga-pb.txt'))
+              ->save();
+          //update HP with new banner markup
+          $this->pageFactory->create()
+              ->load('home')
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-hp.txt'))
               ->save();
         }
         $setup->endSetup();
