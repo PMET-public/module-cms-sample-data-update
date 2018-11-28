@@ -159,11 +159,6 @@ class UpgradeData implements UpgradeDataInterface
               ->load('home-page-yoga')
               ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-yoga-pb.txt'))
               ->save();
-          //update HP with new banner markup
-          $this->pageFactory->create()
-              ->load('home')
-              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-hp.txt'))
-              ->save();
         }
         $setup->endSetup();
     }
