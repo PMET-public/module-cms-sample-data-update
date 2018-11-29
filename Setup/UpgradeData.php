@@ -159,6 +159,10 @@ class UpgradeData implements UpgradeDataInterface
               ->load('home-page-yoga')
               ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-yoga-pb.txt'))
               ->save();
+          $this->pageFactory->create()
+              ->load('home')
+              ->setPageLayout('cms-full-width')
+              ->save();
         }
         $setup->endSetup();
     }
