@@ -9,6 +9,7 @@
     <module name="MagentoEse_CmsSampleDataUpdate" setup_version="0.0.2">
         <sequence>
             <module name="MagentoEse_VeniaVideoSampleData"/>
+            <module name="Magento_CmsSampleData" />
         </sequence>
     </module>
 </config>
