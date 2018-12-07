@@ -62,6 +62,7 @@ class Segment
                 $row = $data;
 
                 $segment = $this->segment->create();
+                $segment->addData(['website_ids'=>[1]]);
                 $segment->setName($row['name']);
                 $segment->setConditionsSerialized($row['conditions']);
                 $segment->setConditionSql($row['sql']);
