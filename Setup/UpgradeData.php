@@ -69,7 +69,7 @@ class UpgradeData implements UpgradeDataInterface
 
           //delete homepage widget
           $widgetInstance = $this->widgetFactory->create();
-          $instanceId = 14;
+          $instanceId = 14; //this is the default ID from SampleData
           $widgetInstance->load($instanceId)->delete();
 
           //update homepage with banners
@@ -138,6 +138,30 @@ class UpgradeData implements UpgradeDataInterface
    <h2 class="title">Hot Sellers</h2>
    <p class="info">Here is what`s trending on Luma right now</p>
 </div>')
+              ->save();
+        }
+        if (version_compare($context->getVersion(), '0.0.3') < 0
+        ) {
+          //update pages with PB content
+          $this->blockFactory->create()
+              ->load('home-page-block')
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-pb.txt'))
+              ->save();
+          $this->blockFactory->create()
+              ->load('home-page-vip')
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-vip-pb.txt'))
+              ->save();
+          $this->blockFactory->create()
+              ->load('home-page-runner')
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-runner-pb.txt'))
+              ->save();
+          $this->blockFactory->create()
+              ->load('home-page-yoga')
+              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-yoga-pb.txt'))
+              ->save();
+          $this->pageFactory->create()
+              ->load('home')
+              ->setPageLayout('cms-full-width')
               ->save();
         }
         $setup->endSetup();

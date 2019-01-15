@@ -55,14 +55,15 @@ class Banner
         \Magento\BannerCustomerSegment\Model\ResourceModel\BannerSegmentLink $bannerSegmentLink,
         BlockRepositoryInterface $blockRepository,
         SearchCriteriaBuilder $searchCriteriaBuilder
-    ) {
+    )
+    {
         $this->fixtureManager = $sampleDataContext->getFixtureManager();
         $this->csvReader = $sampleDataContext->getCsvReader();
         $this->banner = $banner;
         $this->bannerSegmentLink = $bannerSegmentLink;
         $this->blockRepository = $blockRepository;
         $this->searchCriteriaBuilder = $searchCriteriaBuilder;
-      }
+    }
 
     /**
      * {@inheritdoc}
