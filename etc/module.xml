@@ -6,11 +6,10 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="MagentoEse_CmsSampleDataUpdate" setup_version="0.0.3">
+    <module name="MagentoEse_CmsSampleDataUpdate">
         <sequence>
             <module name="Magento_CmsSampleData" />
             <module name="MagentoEse_VeniaVideoSampleData"/>
-            <module name="Magento_CmsSampleData" />
         </sequence>
     </module>
 </config>

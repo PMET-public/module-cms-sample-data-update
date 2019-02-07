@@ -1,21 +1,38 @@
 <?php
 /**
- * Copyright © 2017 Magento. All rights reserved.
+ * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace MagentoEse\CmsSampleDataUpdate\Setup;
 
-use Magento\Framework\Setup\UpgradeDataInterface;
-use Magento\Framework\Setup\ModuleContextInterface;
-use Magento\Framework\Setup\ModuleDataSetupInterface;
-use Magento\Widget\Controller\Adminhtml\Widget;
+namespace MagentoEse\CmsSampleDataUpdate\Setup\Patch\Data;
 
-class UpgradeData implements UpgradeDataInterface
+
+use Magento\Framework\Setup\Patch\DataPatchInterface;
+use Magento\Framework\Setup\Patch\PatchVersionInterface;
+use MagentoEse\CmsSampleDataUpdate\Model\Block;
+
+
+class OldUpgradeData implements DataPatchInterface, PatchVersionInterface
 {
+
+
+    /** @var Block  */
     private $block;
+
+    /** @var \MagentoEse\CmsSampleDataUpdate\Model\Segment  */
     private $segment;
+
+    /** @var \MagentoEse\CmsSampleDataUpdate\Model\Banner  */
     private $banner;
+
+    /** @var \Magento\Widget\Model\Widget\InstanceFactory  */
     private $widgetFactory;
+
+    /** @var \Magento\Cms\Model\BlockFactory  */
+    private $blockFactory;
+
+    /** @var \Magento\Cms\Model\PageFactory  */
+    private $pageFactory;
 
     /**
      * App State
@@ -25,9 +42,14 @@ class UpgradeData implements UpgradeDataInterface
     protected $state;
 
     /**
-     * @param \MagentoEse\CmsSampleDataUpdate\Model\Block $block
+     * OldInstallData constructor.
+     * @param \Magento\Framework\App\State $state
+     * @param Block $block
      * @param \MagentoEse\CmsSampleDataUpdate\Model\Segment $segment
      * @param \MagentoEse\CmsSampleDataUpdate\Model\Banner $banner
+     * @param \Magento\Cms\Model\PageFactory $pageFactory
+     * @param \Magento\Cms\Model\BlockFactory $blockFactory
+     * @param \Magento\Widget\Model\Widget\InstanceFactory $widgetFactory
      */
     public function __construct(
         \Magento\Framework\App\State $state,
@@ -53,36 +75,34 @@ class UpgradeData implements UpgradeDataInterface
         }
     }
 
-    public function upgrade(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
+    public function apply()
     {
-        $setup->startSetup();
-        if (version_compare($context->getVersion(), '0.0.2') < 0
-        ) {
-          //add new homepage blocks
-          $this->block->install(['MagentoEse_CmsSampleDataUpdate::fixtures/blocks/persona_home_blocks.csv']);
+        //0.0.2
+        //add new homepage blocks
+        $this->block->install(['MagentoEse_CmsSampleDataUpdate::fixtures/blocks/persona_home_blocks.csv']);
 
-          //add segments
-          $this->segment->install(['MagentoEse_CmsSampleDataUpdate::fixtures/segments.csv']);
+        //add segments
+        $this->segment->install(['MagentoEse_CmsSampleDataUpdate::fixtures/segments.csv']);
 
-          //add banners
-          $this->banner->install(['MagentoEse_CmsSampleDataUpdate::fixtures/banners.csv']);
+        //add banners
+        $this->banner->install(['MagentoEse_CmsSampleDataUpdate::fixtures/banners.csv']);
 
-          //delete homepage widget
-          $widgetInstance = $this->widgetFactory->create();
-          $instanceId = 14; //this is the default ID from SampleData
-          $widgetInstance->load($instanceId)->delete();
+        //delete homepage widget
+        $widgetInstance = $this->widgetFactory->create();
+        $instanceId = 14; //this is the default ID from SampleData
+        $widgetInstance->load($instanceId)->delete();
 
-          //update homepage with banners
-          $this->pageFactory->create()
-              ->load('home')
-              ->setContent('<p>{{widget type="Magento\Banner\Block\Widget\Banner" display_mode="fixed" types="content" rotate="" banner_ids="1,2,3,4" template="widget/block.phtml" unique_id="f91bb74da701824f52d10d816238cdf7"}}</p>
+        //update homepage with banners
+        $this->pageFactory->create()
+            ->load('home')
+            ->setContent('<p>{{widget type="Magento\Banner\Block\Widget\Banner" display_mode="fixed" types="content" rotate="" banner_ids="1,2,3,4" template="widget/block.phtml" unique_id="f91bb74da701824f52d10d816238cdf7"}}</p>
 <p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`badge`,`operator`:`^[^]`,`value`:[`5`]^]^]"}}</p>')
-              ->save();
+            ->save();
 
-          //update homepage block to remove product widget
-          $this->blockFactory->create()
-              ->load('home-page-block')
-              ->setContent('<div class="blocks-promo">
+        //update homepage block to remove product widget
+        $this->blockFactory->create()
+            ->load('home-page-block')
+            ->setContent('<div class="blocks-promo">
    <a href="{{store url=""}}collections/yoga-new.html" class="block-promo home-main">
        <img src="{{media url="wysiwyg/home/home-main.jpg"}}" alt="" />
        <span class="content bg-white">
@@ -138,32 +158,47 @@ class UpgradeData implements UpgradeDataInterface
    <h2 class="title">Hot Sellers</h2>
    <p class="info">Here is what`s trending on Luma right now</p>
 </div>')
-              ->save();
-        }
-        if (version_compare($context->getVersion(), '0.0.3') < 0
-        ) {
-          //update pages with PB content
-          $this->blockFactory->create()
-              ->load('home-page-block')
-              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-pb.txt'))
-              ->save();
-          $this->blockFactory->create()
-              ->load('home-page-vip')
-              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-vip-pb.txt'))
-              ->save();
-          $this->blockFactory->create()
-              ->load('home-page-runner')
-              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-runner-pb.txt'))
-              ->save();
-          $this->blockFactory->create()
-              ->load('home-page-yoga')
-              ->setContent(file_get_contents(__DIR__ . '/../fixtures/luma-home-yoga-pb.txt'))
-              ->save();
-          $this->pageFactory->create()
-              ->load('home')
-              ->setPageLayout('cms-full-width')
-              ->save();
-        }
-        $setup->endSetup();
+            ->save();
+
+
+        //0.0.3
+        //update pages with PB content
+        $this->blockFactory->create()
+            ->load('home-page-block')
+            ->setContent(file_get_contents(__DIR__ . '/../../../fixtures/luma-home-pb.txt'))
+            ->save();
+        $this->blockFactory->create()
+            ->load('home-page-vip')
+            ->setContent(file_get_contents(__DIR__ . '/../../../fixtures/luma-home-vip-pb.txt'))
+            ->save();
+        $this->blockFactory->create()
+            ->load('home-page-runner')
+            ->setContent(file_get_contents(__DIR__ . '/../../../fixtures/luma-home-runner-pb.txt'))
+            ->save();
+        $this->blockFactory->create()
+            ->load('home-page-yoga')
+            ->setContent(file_get_contents(__DIR__ . '/../../../fixtures/luma-home-yoga-pb.txt'))
+            ->save();
+        $this->pageFactory->create()
+            ->load('home')
+            ->setPageLayout('cms-full-width')
+            ->save();
+
     }
+
+    public static function getDependencies()
+    {
+        return [OldInstallData::class];
+    }
+
+    public function getAliases()
+    {
+        return [];
+    }
+
+    public static function getVersion()
+    {
+        return '0.0.3';
+    }
+
 }
