@@ -7,10 +7,11 @@
 namespace MagentoEse\CmsSampleDataUpdate\Setup\Patch\Data;
 
 
+use Magento\Framework\Setup\Patch\PatchVersionInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 
 
-class OldUpgradeData implements DataPatchInterface, PatchVersionInterface
+class DynamicBlockMigration implements DataPatchInterface, PatchVersionInterface
 {
     /** @var \Magento\Banner\Model\Banner  */
     private $banner;
@@ -34,8 +35,7 @@ class OldUpgradeData implements DataPatchInterface, PatchVersionInterface
     public function __construct(
         \Magento\Framework\App\State $state,
         \Magento\Banner\Model\BannerFactory $banner,
-        \Magento\Cms\Model\PageFactory $pageFactory,
-
+        \Magento\Cms\Model\PageFactory $pageFactory
     ) {
         $this->banner = $banner;
         $this->pageFactory = $pageFactory;
@@ -82,6 +82,11 @@ class OldUpgradeData implements DataPatchInterface, PatchVersionInterface
     public function getAliases()
     {
         return [];
+    }
+
+    public static function getVersion()
+    {
+        return '0.0.4';
     }
 
 }
