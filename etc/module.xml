@@ -10,7 +10,6 @@
         <sequence>
             <module name="Magento_CmsSampleData" />
             <module name="MagentoEse_VeniaVideoSampleData"/>
-            <module name="Magento_CmsSampleData" />
         </sequence>
     </module>
 </config>
