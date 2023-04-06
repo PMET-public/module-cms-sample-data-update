@@ -5,17 +5,54 @@
  */
 namespace MagentoEse\CmsSampleDataUpdate\Setup;
 
+use Magento\Cms\Model\BlockFactory;
+use Magento\Cms\Model\PageFactory;
 use Magento\Framework\Setup\UpgradeDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Widget\Controller\Adminhtml\Widget;
+use Magento\Widget\Model\Widget\InstanceFactory;
+use MagentoEse\CmsSampleDataUpdate\Model\Banner;
+use MagentoEse\CmsSampleDataUpdate\Model\Block;
+use MagentoEse\CmsSampleDataUpdate\Model\Segment;
 
 class UpgradeData implements UpgradeDataInterface
 {
+    /**
+     * 
+     * @var Block
+     */
     private $block;
+
+    /**
+     * 
+     * @var Segment
+     */
     private $segment;
+
+    /**
+     * 
+     * @var Banner
+     */
     private $banner;
+
+    /**
+     * 
+     * @var InstanceFactory
+     */
     private $widgetFactory;
+
+    /**
+     * 
+     * @var PageFactory
+     */
+    private $pageFactory;
+
+    /**
+     * 
+     * @var BlockFactory
+     */
+    private $blockFactory;
 
     /**
      * App State

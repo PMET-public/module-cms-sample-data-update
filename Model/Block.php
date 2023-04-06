@@ -32,6 +32,16 @@ class Block
      */
     protected $converter;
 
+     /**
+     * @var \Magento\Store\Model\Store
+     */
+    protected $storeView;
+
+     /**
+     * @var array
+     */
+    protected $config;
+
     /**
      * @param SampleDataContext $sampleDataContext
      * @param \Magento\Cms\Model\BlockFactory $blockFactory

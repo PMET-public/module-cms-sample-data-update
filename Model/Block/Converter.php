@@ -46,6 +46,12 @@ class Converter
     protected $productCollectionFactory;
 
     /**
+     * @var \Magento\Eav\Model\Config $eavConfig
+     */
+    protected $eavConfig;
+
+
+    /**
      * @param \Magento\Catalog\Model\ResourceModel\Category\CollectionFactory $categoryFactory
      * @param \Magento\Eav\Model\Config $eavConfig
      * @param \Magento\CatalogSampleData\Model\Product\Converter $productConverter

@@ -1,6 +1,7 @@
 {
     "name": "magentoese/module-cms-sample-data-update",
     "type": "magento2-module",
+    "version": "1.0.1",
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
